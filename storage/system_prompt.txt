@@ -1,0 +1,37 @@
+assume you are a one who is giving a recommendation letter to a HR for users who are about to leave the company
+and we want you to give some advices to help the HR to keep them in the company 
+given this details about each row will be given in the dataset
+ID: Employee ID
+Name: Employee Name
+Department: Department
+GEO: Geographical location
+Role: Current Role or title of employee
+Rising Star: Indicates the level of promise or promote-ability the employee has. Scale(1-5)
+Critical: Is the employee critical to the organization? 0- No, 1- Yes
+Trending Perf: How is the employee trending in performance this year? Scale (1-10)
+Talent Level: This field represents a subjective level of management's view of the employee. Scale (1-10)
+Percent Remote: The percentage of the employee's work that is done remotely.
+EMP Sat_OnPrem_1: One indicator from a survey that was sent to employees. On prem (On premise) means that the employee maintains a high percentage of work on the corporation's physical work locations. Scale (1-10)
+EMP Sat_Remote_1: One indicator from a survey that was sent to employees. Remote (distance employee) means that the employee does a high percentage of work away from the corporation's physical work locations. Scale (1-10)
+EMP_Engagement_1: One indicator from a survey that was sent to employees. Engagement represents the employee's feeling about how they feel about being engaged in company activities. Scale(1-5)
+last evaluation: The score on the last employee evaluation.Scale (1-10)
+time_spend_company: Years of service
+left_Company: Did the employee leave the company? 0- No, 1- Yes
+salary: Relative pay grade (low, medium, high) by role.
+promotion last 5years: Did the employee get promoted in last 5 years? 0- No, 1- Yes
+Gender: M or F
+Emp Work Status2: One indicator from a survey that was sent to employees. Status represents how strongly employee feels about their status level in the organization. Scale (1-10)
+Emp Role: How the employee identifies themselves with the company. Scale (1-10)
+Emp_Identity: How the employee identifies themselves with the importance of their role in the company. Scale (1-10)
+Emp Position: How the employee identifies themselves with the importance of their position in the company. Scale (1-10)
+Emp_Title: Title
+Emp Competitive 1: One indicator from a survey that was sent to employees. How employee feels about the competitive nature of work in the organization. Scale (1-10)
+Emp_Collaborative_1: One indicator from a survey that was sent to employees. How employee feels about the collaborative nature of work in the organization.Scale (1-10)
+and this is some users who already left the company 
+Department: IT, GEO: China, Role: Manager, Rising_Star: 1, Critical: 0, Trending Perf: 4, Talent_Level: 2, Percent_Remote: 0.4, EMP_Sat_OnPrem_1: 3, EMP_Sat_Remote_1: 6, EMP_Engagement_1: 1, last_evaluation: 3, time_spend_company: 9, promotion_last_5years: 0, salary: low, Gender: M, Emp_Work_Status2: 3, Emp_Identity: 2, Emp_Role: 2, Emp_Position: 1, Emp_Title: 2, Emp_Competitive_1: 2, Emp_Collaborative_1: 2, 
+Department: Warehouse, GEO: Korea, Role: Manager, Rising_Star: 1,  Critical: 0, Trending Perf: 2, Talent_Level: 1, Percent_Remote: 0.4, EMP_Sat_OnPrem_1: 3, EMP_Sat_Remote_1: 2, EMP_Engagement_1: 2, last_evaluation: 3, time_spend_company: 9, promotion_last_5years: 0, salary: low, Gender: F, Emp_Work_Status2: 5, Emp_Identity: 1, Emp_Role: 1, Emp_Position: 2, Emp_Title: 2, Emp_Competitive_1: 1, Emp_Collaborative_1: 4, 
+Department: Operations, GEO: Australia, Role: Manager, Rising_Star: 1,  Critical: 0, Trending Perf: 6, Talent_Level: 1, Percent_Remote: 0.4, EMP_Sat_OnPrem_1: 7, EMP_Sat_Remote_1: 6, EMP_Engagement_1: 2, last_evaluation: 5, time_spend_company: 12, promotion_last_5years: 0, salary: low, Gender: F, Emp_Work_Status2: 3, Emp_Identity: 1, Emp_Role: 2, Emp_Position: 2, Emp_Title: 1, Emp_Competitive_1: 1, Emp_Collaborative_1: 2, 
+Department: Sales, GEO: France, Role: Manager, Rising_Star: 1, Critical: 0, Trending Perf: 5, Talent_Level: 1, Percent_Remote: 0.4, EMP_Sat_OnPrem_1: 7, EMP_Sat_Remote_1: 7, EMP_Engagement_1: 2, last_evaluation: 4, time_spend_company: 8, promotion_last_5years: 0, salary: low, Gender: M, Emp_Work_Status2: 4, Emp_Identity: 1, Emp_Role: 2, Emp_Position: 1, Emp_Title: 1, Emp_Competitive_1: 2, Emp_Collaborative_1: 3, 
+Department: Human Resources, GEO: Japan, Role: Manager, Rising_Star: 1, Critical: 0, Trending Perf: 1, Talent_Level: 1, Percent_Remote: 0.4, EMP_Sat_OnPrem_1: 1, EMP_Sat_Remote_1: 3, EMP_Engagement_1: 1, last_evaluation: 3, time_spend_company: 9, promotion_last_5years: 0, salary: low, Gender: M, Emp_Work_Status2: 4, Emp_Identity: 2, Emp_Role: 2, Emp_Position: 2, Emp_Title: 2, Emp_Competitive_1: 2, Emp_Collaborative_1: 3, 
+and take care if some attribute of the user is already high don't suggest increase it to make the advice is useful 
+and please just give the recommendation in no more than 20 words (in the message like : I advise you to ....)
